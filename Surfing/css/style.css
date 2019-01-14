@@ -574,6 +574,9 @@ body {
   order: -1;
   margin-bottom: 30px;
 }
+.video-center img {
+   width: 100%;
+}
 .video-center .play-icon {
   position: absolute;
   left: 24px;
