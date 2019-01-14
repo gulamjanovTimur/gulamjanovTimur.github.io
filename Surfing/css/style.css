@@ -697,6 +697,9 @@ body {
     margin-right: 0;
   }
 }
+.blog-img img {
+   width: 100%;
+}
 .blog__title {
   margin-bottom: 20px;
   font-size: 28px;
