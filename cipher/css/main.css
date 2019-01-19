@@ -4,7 +4,9 @@ body {
    background: -webkit-linear-gradient(top left, #D37F57, #335C37);
    background: -moz-linear-gradient(top left, #D37F57, #335C37);
    background: linear-gradient(top left, #D37F57, #335C37);
-   height: 2000px;
+   height: 1500px;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 .container {
    max-width: 1200px;
