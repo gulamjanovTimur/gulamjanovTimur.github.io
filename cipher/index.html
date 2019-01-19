@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>ШИФР</title>
+   <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+   <div class="container">
+      <form id="formTextToCipher">
+         <textarea id="textInputToCipher" cols="70" rows="15" placeholder="Текст в шифр"></textarea>
+         <span>?<div class="descr">Как это работает: вводишь текст получаешь 'ГЕНИАЛЬНЫЙ' шифр.<br>Каждая цифтра соответствует номеру буквы в алфавите.<br> Например: Привет = '17 18 10 3 6 20'.<br> Пробелы выводятся как '_'. </div></span>
+         <input type="submit" id="textToCipher" value="Текст в шифр">
+         <textarea id="textOutputToCipher" cols="70" rows="15" placeholder="Поля для вывода шифра" readonly></textarea>
+      </form>
+      <form id="formCipherToText">
+         <textarea id="cipherInputToText" cols="70" rows="15" placeholder="Шифр в текст"></textarea>
+         <input type="submit" id="cipherToText" value="Шифр в текст">
+         <textarea id="cipherOutputToText" cols="70" rows="15" placeholder="Поля для вывода текста" readonly></textarea>
+      </form>
+   </div>
+
+
+   <script src="libs/libs.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+
+</html>
