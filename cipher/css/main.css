@@ -4,7 +4,6 @@ body {
    background: -webkit-linear-gradient(top left, #D37F57, #335C37);
    background: -moz-linear-gradient(top left, #D37F57, #335C37);
    background: linear-gradient(top left, #D37F57, #335C37);
-   height: 1500px;
    background-position: center;
    background-repeat: no-repeat;
 }
@@ -16,11 +15,11 @@ body {
 form {
    display: flex;
    justify-content: center;
-   align-items: center;  
+   align-items: center;
+   margin-bottom: 200px;
 }
 #formTextToCipher {
    margin-top: 50px;
-   margin-bottom: 200px;
 }
 textarea {
    resize: none;
@@ -79,7 +78,10 @@ span:hover .descr {
    display: block;
    
 }
-
+h1 {
+   text-align: center;
+   color: #fff;
+}
 
 
 
